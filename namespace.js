@@ -18,6 +18,6 @@
             stepone.target.classList.toggle("highlight");
             stepone.target.removeAttribute("style");
         });
-    
+    }
 };
     
