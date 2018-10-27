@@ -15,9 +15,10 @@
         });
 
         stepone.addEventListener("mouseout", function () {
-            stepone.classList.toggle("highlight");
+            stepone.target.classList.toggle("highlight");
             stepone.target.removeAttribute("style");
         });
     }
+    
 };
     
